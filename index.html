@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Forever &amp; Always | Our 2nd Anniversary</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&amp;family=Be+Vietnam+Pro:wght@400;600&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-secondary-fixed": "#3b002f",
+            "secondary-fixed-dim": "#ffade1",
+            "on-tertiary-fixed-variant": "#851a4c",
+            "surface": "#fff7fb",
+            "primary-fixed-dim": "#efb0ff",
+            "surface-container-low": "#ffeffe",
+            "on-surface-variant": "#4d444e",
+            "error-container": "#ffdad6",
+            "primary-container": "#5b266d",
+            "surface-tint": "#7f4891",
+            "on-secondary-fixed-variant": "#722c5f",
+            "on-tertiary-fixed": "#3e001f",
+            "tertiary-fixed-dim": "#ffb0ca",
+            "primary-fixed": "#fad7ff",
+            "surface-container-lowest": "#ffffff",
+            "on-primary-fixed": "#330045",
+            "on-secondary-container": "#7c3468",
+            "surface-bright": "#fff7fb",
+            "on-primary": "#ffffff",
+            "on-primary-container": "#d092e1",
+            "background": "#fff7fb",
+            "surface-container-high": "#f5e2f5",
+            "inverse-on-surface": "#feebfe",
+            "secondary-fixed": "#ffd8ed",
+            "on-tertiary": "#ffffff",
+            "on-surface": "#221825",
+            "on-secondary": "#ffffff",
+            "inverse-surface": "#382d3a",
+            "outline-variant": "#d0c2cf",
+            "secondary": "#8e4478",
+            "outline": "#7f747f",
+            "surface-container-highest": "#efddf0",
+            "surface-dim": "#e7d4e7",
+            "surface-container": "#fbe8fb",
+            "error": "#ba1a1a",
+            "on-error": "#ffffff",
+            "secondary-container": "#ffa4df",
+            "on-tertiary-container": "#ff7eaf",
+            "surface-variant": "#efddf0",
+            "tertiary-container": "#780e43",
+            "on-primary-fixed-variant": "#653077",
+            "primary": "#420b55",
+            "tertiary": "#54002c",
+            "inverse-primary": "#efb0ff",
+            "tertiary-fixed": "#ffd9e3",
+            "on-background": "#221825",
+            "on-error-container": "#93000a"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "base": "8px",
+            "margin-mobile": "20px",
+            "stack-lg": "80px",
+            "stack-sm": "12px",
+            "margin-desktop": "64px",
+            "container-max": "1200px",
+            "stack-md": "32px",
+            "gutter": "24px"
+          },
+          "fontFamily": {
+            "headline-md": ["Playfair Display"],
+            "body-lg": ["Be Vietnam Pro"],
+            "display-lg-mobile": ["Playfair Display"],
+            "body-md": ["Be Vietnam Pro"],
+            "display-lg": ["Playfair Display"],
+            "label-md": ["Be Vietnam Pro"],
+            "caption": ["Be Vietnam Pro"],
+            "headline-lg": ["Playfair Display"]
+          },
+          "fontSize": {
+            "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+            "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+            "display-lg-mobile": ["40px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+            "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+            "display-lg": ["56px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+            "label-md": ["14px", {"lineHeight": "1.0", "letterSpacing": "0.05em", "fontWeight": "600"}],
+            "caption": ["12px", {"lineHeight": "1.4", "fontWeight": "400"}],
+            "headline-lg": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}]
+          }
+        },
+      },
+    }
+  </script>
+</head>
+<body class="overflow-x-hidden font-body-md text-on-background selection:bg-secondary-container selection:text-on-secondary-container">
+  <nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md shadow-[0_10px_30px_-15px_rgba(66,11,85,0.1)]">
+    <div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+      <div class="font-headline-md text-headline-md font-semibold text-primary elegant-header">Forever &amp; Always</div>
+      <div class="hidden md:flex items-center space-x-gutter">
+        <a class="text-on-surface-variant hover:text-secondary transition-colors font-label-md text-label-md" href="#story">Our Story</a>
+        <a class="text-on-surface-variant hover:text-secondary transition-colors font-label-md text-label-md" href="#timeline">Timeline</a>
+        <a class="text-on-surface-variant hover:text-secondary transition-colors font-label-md text-label-md" href="#notes">Love Notes</a>
+        <a class="text-on-surface-variant hover:text-secondary transition-colors font-label-md text-label-md" href="#reminders">Reminders</a>
+      </div>
+      <div class="flex items-center text-primary">
+        <span class="material-symbols-outlined cursor-pointer hover:scale-110 transition-transform" data-icon="favorite" style="font-variation-settings: &quot;FILL&quot; 1;">favorite</span>
+      </div>
+    </div>
+  </nav>
+
+  <header class="relative min-h-screen flex flex-col items-center justify-center text-center px-margin-mobile pt-24 overflow-hidden section-petals hero-bg">
+    <div class="absolute inset-0 z-0 hero-overlay"></div>
+    <div class="absolute inset-0 z-0 opacity-35 hero-orbs"></div>
+    <div class="relative z-20 space-y-stack-md max-w-4xl">
+      <span class="inline-block px-4 py-1 rounded-full bg-white/15 text-white font-label-md text-label-md animate-pulse backdrop-blur-sm">2nd Monthsary</span>
+      <h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-white leading-tight elegant-header">Forever &amp; Always</h1>
+      <p class="font-headline-md text-headline-md text-white/90 italic">2 Months of Us</p>
+      <div class="pt-stack-md">
+        <button class="bg-white/15 text-white px-10 py-4 rounded-full font-label-md text-label-md shadow-lg shadow-black/10 hover:bg-white/25 hover:scale-105 transition-all active:scale-95 backdrop-blur-sm border border-white/20">
+          Explore Our Journey
+        </button>
+      </div>
+    </div>
+    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce opacity-50">
+      <span class="material-symbols-outlined text-primary text-4xl" data-icon="keyboard_arrow_down">keyboard_arrow_down</span>
+    </div>
+  </header>
+
+  <section class="py-stack-lg px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto" id="story">
+    <div class="text-center mb-16">
+      <h2 class="font-headline-lg text-headline-lg text-primary mb-4 elegant-header">Our Story</h2>
+      <div class="h-1 w-24 bg-secondary mx-auto rounded-full opacity-30"></div>
+    </div>
+    <div class="relative timeline-line space-y-24 py-stack-md">
+      <div class="relative flex flex-col md:flex-row items-center md:justify-between group">
+        <div class="w-full md:w-[45%] bg-white p-8 rounded-xl shadow-[0_10px_40px_-20px_rgba(66,11,85,0.1)] hover:shadow-secondary/10 transition-all border border-outline-variant/30">
+          <span class="text-secondary font-label-md text-label-md block mb-2">August 7, 2025</span>
+          <h3 class="font-headline-md text-headline-md text-primary mb-3">First Meet</h3>
+          <div class="font-body-md text-body-md text-on-surface-variant space-y-4 leading-relaxed">
+            <p>How easily we could have missed each other forever.</p>
+            <p>To meet the way we did, on a website like Omegle, feels impossible. It is a place built for things that do not last, an endless hallway of doors opening and closing, where people appear for a second and then disappear into the dark with a single click. I went online expecting nothing, fully used to being completely alone in that empty digital space.</p>
+            <p>But when your screen appeared, the cold, random luck of the world suddenly stopped.</p>
+            <p>It makes no sense that a love like ours could start in a place meant only for short, passing moments. We were just two strangers lost in a giant maze, and against all odds, we found each other. I never expected that a random choice to log on that night would lead me out of my lonely world and straight to you. What started as a total accident became the very thing that keeps me grounded.</p>
+          </div>
+        </div>
+        <div class="absolute left-1/2 -translate-x-1/2 w-4 h-4 bg-primary rounded-full border-4 border-surface z-20 hidden md:block"></div>
+        <div class="hidden md:block md:w-[45%]"></div>
+      </div>
+      <div class="relative flex flex-col md:flex-row-reverse items-center md:justify-between group">
+        <div class="w-full md:w-[45%] bg-white p-8 rounded-xl shadow-[0_10px_40px_-20px_rgba(66,11,85,0.1)] hover:shadow-secondary/10 transition-all border border-outline-variant/30">
+          <span class="text-secondary font-label-md text-label-md block mb-2">January 1, 2026</span>
+          <h3 class="font-headline-md text-headline-md text-primary mb-3">The First "I Love You"</h3>
+          <div class="font-body-md text-body-md text-on-surface-variant space-y-4 leading-relaxed">
+            <p>The new year arrives not with the striking of a clock, but with the quiet, terrifying realization that the trial has ended, and the verdict is entirely merciful.</p>
+            <p>For so long, my courtship felt like pacing through the endless, cold corridors of an unyielding bureaucracy, submitting petitions to an invisible court, fully prepared for the standard, devastating silence. I did not expect an answer. I certainly did not expect the heavens to open on the very first day of the year.</p>
+            <p>When those words, your first <i data-path-to-node="2" data-index-in-node="28">"I love you"</i>, finally left your lips, it was as if a law of the universe had suddenly shifted in my favor. The heavy, bureaucratic weight of my longing was instantly dissolved. To hear that from you was not just an answer; it was a sudden, breathtaking acquittal from the solitude I had grown so accustomed to. You have rewritten the entire architecture of my world, and for the first time, the world is profoundly, overwhelmingly beautiful.</p>
+          </div>
+        </div>
+        <div class="absolute left-1/2 -translate-x-1/2 w-4 h-4 bg-primary rounded-full border-4 border-surface z-20 hidden md:block"></div>
+        <div class="hidden md:block md:w-[45%]"></div>
+      </div>
+      <div class="relative flex flex-col md:flex-row items-center md:justify-between group">
+        <div class="w-full md:w-[45%] bg-white p-8 rounded-xl shadow-[0_10px_40px_-20px_rgba(66,11,85,0.1)] hover:shadow-secondary/10 transition-all border border-outline-variant/30">
+          <span class="text-secondary font-label-md text-label-md block mb-2">Today</span>
+          <h3 class="font-headline-md text-headline-md text-primary mb-3">Two Months Strong</h3>
+          <div class="font-body-md text-body-md text-on-surface-variant space-y-4 leading-relaxed">
+            <p>Happy second monthsary, my love. Today is finally the day.</p>
+            <p>This text is my only gift to you, and I truly hope you like it. It is the only thing I have to give right now, because my pockets are completely empty and I am broke at the moment.</p>
+            <p>But even in this cold, empty room where I have nothing of value to offer, my feelings for you are the one thing that remains completely real and solid. In a world where everything feels heavy, complicated, and impossible to control, loving you is the only simple truth I have. I love you, my love, with everything that I am.</p>
+          </div>
+        </div>
+        <div class="absolute left-1/2 -translate-x-1/2 w-4 h-4 bg-primary rounded-full border-4 border-surface z-20 hidden md:block"></div>
+        <div class="hidden md:block md:w-[45%]"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-stack-lg bg-surface-container-low/50" id="notes">
+    <div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto flex flex-col items-center py-12">
+      <h2 class="font-headline-lg text-headline-lg text-primary text-center mb-12 elegant-header">Love Notes</h2>
+      <div class="perspective-1000 w-full max-w-[400px] h-[500px] group cursor-pointer" id="love-card">
+        <div class="card-inner relative w-full h-full transition-transform duration-700 preserve-3d soft-glow rounded-3xl">
+          <div class="absolute inset-0 bg-white rounded-3xl p-12 flex flex-col items-center justify-center text-center shadow-xl backface-hidden border border-outline-variant/20">
+            <div class="text-primary-container mb-6">
+              <span class="material-symbols-outlined text-8xl" data-icon="favorite" style="font-variation-settings: &quot;FILL&quot; 1;">favorite</span>
+            </div>
+            <h4 class="font-headline-md text-headline-md text-primary mb-4">Click to Open</h4>
+            <p class="font-body-md text-on-surface-variant italic">A special message just for you</p>
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-br from-primary-container to-primary rounded-3xl p-12 flex flex-col items-center justify-center text-center shadow-xl backface-hidden rotate-y-180 text-white">
+            <span class="text-4xl mb-6 opacity-60 font-headline-md text-white/80">29</span>
+            <div class="font-headline-md text-headline-md leading-relaxed mb-8">
+              <p>Thank you for letting me love you when I have nothing to offer. In a world where everything has a price, your love is the only thing given to me freely.</p>
+            </div>
+            <div class="h-px w-16 bg-white/30 mb-6"></div>
+            <p class="font-label-md text-label-md tracking-widest uppercase opacity-80">Forever Yours</p>
+          </div>
+        </div>
+      </div>
+      <p class="mt-8 font-caption text-caption text-on-surface-variant opacity-60 italic">Tap to flip the card</p>
+    </div>
+  </section>
+
+  <section class="py-stack-lg px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto relative overflow-hidden section-petals" id="reminders">
+    <div class="text-center mb-16 relative z-20">
+      <h2 class="font-headline-lg text-headline-lg text-primary mb-4 elegant-header">Things that remind me of you</h2>
+      <div class="h-1 w-24 bg-secondary mx-auto rounded-full opacity-30"></div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter relative z-20">
+      <div class="bg-white p-8 rounded-3xl shadow-[0_10px_40px_-20px_rgba(66,11,85,0.1)] border border-outline-variant/30 flex flex-col items-center text-center group hover:-translate-y-2 transition-transform duration-300 soft-glow">
+        <div class="w-16 h-16 rounded-full bg-secondary-container/30 flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition-transform">
+          <span class="material-symbols-outlined text-3xl">music_note</span>
+        </div>
+        <h3 class="font-headline-md text-headline-md text-primary mb-3">"Meaningful Silence" by The Ridleys</h3>
+        <p class="font-body-md text-body-md text-on-surface-variant">Our song. It's the first thing that reminds me of you. The way it says: "Don't worry about the things that have been bothering you for so long... Just tell me how you really feel. You don't have to pretend when you're with me."</p>
+      </div>
+      <div class="bg-white p-8 rounded-3xl shadow-[0_10px_40px_-20px_rgba(66,11,85,0.1)] border border-outline-variant/30 flex flex-col items-center text-center group hover:-translate-y-2 transition-transform duration-300 soft-glow">
+        <div class="w-16 h-16 rounded-full bg-secondary-container/30 flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition-transform">
+          <span class="material-symbols-outlined text-3xl">filter_vintage</span>
+        </div>
+        <h3 class="font-headline-md text-headline-md text-primary mb-3">The smell of lavender</h3>
+        <div class="font-body-md text-body-md text-on-surface-variant space-y-4 leading-relaxed">
+          <p>It makes no sense, but the scent of lavender always brings me straight back to you. It is a strange trick of the mind, because you never mentioned the flower itself, only that you loved the color purple.</p>
+          <p>Yet, in the quiet spaces of my day, that smell acts like a sudden command I cannot ignore. In a world that often feels cold and random, this tiny connection is the one thing that instantly breaks through the grayness and fills my thoughts with you.</p>
+        </div>
+      </div>
+      <div class="bg-white p-8 rounded-3xl shadow-[0_10px_40px_-20px_rgba(66,11,85,0.1)] border border-outline-variant/30 flex flex-col items-center text-center group hover:-translate-y-2 transition-transform duration-300 soft-glow">
+        <div class="w-16 h-16 rounded-full bg-secondary-container/30 flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition-transform">
+          <span class="material-symbols-outlined text-3xl">cake</span>
+        </div>
+        <h3 class="font-headline-md text-headline-md text-primary mb-3">Mango cake</h3>
+        <div class="font-body-md text-body-md text-on-surface-variant space-y-4 leading-relaxed">
+          <p>I spent my whole life hating cakes, refusing to see any value in them. But then you handed me that mango cake, and with a single gesture, you broke a rule I had kept for years.</p>
+          <p>Now, whenever the world feels heavy and I am at my lowest, it is the only thing I crave. It is a strange, beautiful contradiction, that in my darkest moments, the only thing that can comfort me is the very thing I used to reject, simply because it came from your hands.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="w-full py-16 bg-surface-container-highest border-t border-outline-variant/30">
+    <div class="flex flex-col items-center justify-center space-y-4 w-full text-center px-margin-mobile">
+      <div class="font-headline-md text-headline-md text-primary elegant-header">Forever &amp; Always</div>
+      <p class="font-body-md text-body-md text-tertiary">Happy 2nd Monthsary, My Love</p>
+      <p class="font-caption text-caption text-outline">© 202 Forever &amp; Always. I love you, love.</p>
+    </div>
+  </footer>
+
+  <div class="music-player" role="region" aria-label="Background music player">
+    <div class="music-player__meta">
+      <span class="material-symbols-outlined music-player__icon" aria-hidden="true">music_note</span>
+      <div>
+        <p class="music-player__title">Our Song</p>
+        <p class="music-player__subtitle">Pick a track from the folder</p>
+      </div>
+    </div>
+    <select class="music-player__select" id="music-select" aria-label="Choose song">
+      <option value="music/Celeste.mp3">Celeste</option>
+      <option value="music/Fuzzy Feeling.mp3">Fuzzy Feeling</option>
+      <option value="music/Ikaw At Ako.mp3">Ikaw At Ako</option>
+      <option value="music/Ikaw Lang Patutunguhan.mp3">Ikaw Lang Patutunguhan</option>
+      <option value="music/Intertwine ft. The Ridleys.mp3">Intertwine ft. The Ridleys</option>
+      <option value="music/Just Because.mp3">Just Because</option>
+      <option value="music/Nahuhulog Na Sa'yo.mp3">Nahuhulog Na Sa'yo</option>
+      <option value="music/Nothing.mp3">Nothing</option>
+      <option value="music/Paki Sabi.mp3">Paki Sabi</option>
+      <option value="music/Panata.mp3">Panata</option>
+      <option value="music/Pangako.mp3">Pangako</option>
+      <option value="music/Rest Assured.mp3">Rest Assured</option>
+      <option value="music/Someday.mp3">Someday</option>
+      <option value="music/Tataya.mp3">Tataya</option>
+      <option value="music/tindahan ng mga alaala.mp3">tindahan ng mga alaala</option>
+      <option value="music/Waltz of Four Left Feet.mp3">Waltz of Four Left Feet</option>
+      <option value="music/Wi$h Li$t.mp3">Wi$h Li$t</option>
+    </select>
+    <audio id="background-music" preload="metadata" loop autoplay>
+    </audio>
+    <button class="music-player__button" id="music-toggle" type="button" aria-label="Play music">
+      <span class="material-symbols-outlined" id="music-toggle-icon" aria-hidden="true">play_arrow</span>
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
